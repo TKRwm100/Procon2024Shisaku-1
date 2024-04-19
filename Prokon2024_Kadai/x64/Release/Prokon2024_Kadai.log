@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\localuser\Documents\GitHub\Procon2024_Kyogi\Prokon2024_Kadai\Main.cpp(159,108): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+  コード生成しています。
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 294 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  Prokon2024_Kadai.vcxproj -> C:\Users\localuser\Documents\GitHub\Procon2024_Kyogi\Procon2024Kyogi\Release\Prokon2024_Kadai.exe
