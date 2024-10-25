@@ -1,3 +1,3 @@
 ﻿  Main.cpp
-C:\Users\localuser\Documents\GitHub\Procon2024_Kyogi\Prokon2024_Kadai\Main.cpp(159,108): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
-  Prokon2024_Kadai.vcxproj -> C:\Users\localuser\Documents\GitHub\Procon2024_Kyogi\Procon2024Kyogi\Debug\Prokon2024_Kadai.exe
+C:\Users\localuser\Documents\GitHub\Procon2024Shisaku\Prokon2024_Kadai\Main.cpp(159,108): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+  Prokon2024_Kadai.vcxproj -> C:\Users\localuser\Documents\GitHub\Procon2024Shisaku\Procon2024Kyogi\Debug\Prokon2024_Kadai.exe

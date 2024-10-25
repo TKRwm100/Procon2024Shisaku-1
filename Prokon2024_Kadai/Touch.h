@@ -9,6 +9,7 @@ class Touch:public Singleton<Touch>
 	class info
 	{
 	public:
+		info();
 		int x;
 		int y;
 		int device;

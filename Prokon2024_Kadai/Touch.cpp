@@ -86,3 +86,13 @@ bool Touch::update()
     }
     return false;
 }
+
+Touch::info::info()
+{
+    x = 0;
+    y = 0;
+    device = 0;
+    pressing = 0;
+    releasing = 0;
+    flag = false;
+}

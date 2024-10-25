@@ -9,10 +9,11 @@ namespace Resource
 		int handle;
 		Graph();
 	public:
+		Graph(int& handle);
 		Graph(int handle);
 		Graph(Graph& src);
 		Graph* operator=(int);
-		Graph* operator=(Graph);
+		Graph* operator=(Graph&);
 		operator int();
 		static std::vector<Graph> graphs;
 	};
@@ -24,7 +25,7 @@ namespace Resource
 		Font(int handle);
 		Font(Font& src);
 		Font* operator=(int);
-		Font* operator=(Font);
+		Font* operator=(Font&);
 		operator int();
 		static std::vector<Font> fonts;
 	};
@@ -36,7 +37,7 @@ namespace Resource
 		SoftImage(int handle);
 		SoftImage(SoftImage& src);
 		SoftImage* operator=(int);
-		SoftImage* operator=(SoftImage);
+		SoftImage* operator=(SoftImage&);
 		operator int();
 		static std::vector<SoftImage> softimages;
 	};

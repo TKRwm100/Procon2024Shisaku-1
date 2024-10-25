@@ -7,14 +7,19 @@ namespace Resource
 	{
 		handle = -1;
 	}
-	Graph::Graph(int handle)
+	Graph::Graph(int& handle):Graph()
+	{
+		*this = handle;
+		handle = -1;
+	}
+	Graph::Graph(int handle):Graph()
 	{
 		*this = handle;
 	}
-	Graph::Graph(Graph& src)
+	Graph::Graph(Graph& src):Graph()
 	{
-		src.handle = -1;
 		*this = src;
+		src.handle = -1;
 	}
 	Graph* Graph::operator=(int handle)
 	{
@@ -26,9 +31,10 @@ namespace Resource
 		
 		return this;
 	}
-	Graph* Graph::operator=(Graph src)
+	Graph* Graph::operator=(Graph& src)
 	{
 		*this = src.handle;
+		src.handle = -1;
 		return this;
 	}
 	Graph::operator int()
@@ -60,7 +66,7 @@ namespace Resource
 		
 		return this;
 	}
-	Font* Font::operator=(Font src)
+	Font* Font::operator=(Font& src)
 	{
 		*this = src.handle;
 		return this;
@@ -94,7 +100,7 @@ namespace Resource
 		
 		return this;
 	}
-	SoftImage* SoftImage::operator=(SoftImage src)
+	SoftImage* SoftImage::operator=(SoftImage& src)
 	{
 		*this = src.handle;
 		return this;
